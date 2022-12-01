@@ -1,0 +1,8 @@
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_1.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_2.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_3.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_4.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_5.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/exersice_6.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

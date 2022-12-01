@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_1-Debug-d003e3dbfd0b79f9523c.json",
+					"name" : "exersice_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_2-Debug-aba10ce2ba3a06e04650.json",
+					"name" : "exersice_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_3-Debug-a23409f05243b9732055.json",
+					"name" : "exersice_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_4-Debug-da7fa1b6dfbe86e83db8.json",
+					"name" : "exersice_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_5-Debug-7075e319b9a2b80cf800.json",
+					"name" : "exersice_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exersice_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exersice_6-Debug-473321c710595d9c3579.json",
+					"name" : "exersice_6",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug",
+		"source" : "/Users/paulcontreras/CLionProjects/untitled"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,294 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: untitled
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/paulcontreras/CLionProjects/untitled/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_1
+
+
+#############################################
+# Order-only phony target for exersice_1
+
+build cmake_object_order_depends_target_exersice_1: phony || CMakeFiles/exersice_1.dir
+
+build CMakeFiles/exersice_1.dir/exersice_1.c.o: C_COMPILER__exersice_1_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_1.c || cmake_object_order_depends_target_exersice_1
+  DEP_FILE = CMakeFiles/exersice_1.dir/exersice_1.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_1
+
+
+#############################################
+# Link the executable exersice_1
+
+build exersice_1: C_EXECUTABLE_LINKER__exersice_1_Debug CMakeFiles/exersice_1.dir/exersice_1.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_1
+  TARGET_PDB = exersice_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_2
+
+
+#############################################
+# Order-only phony target for exersice_2
+
+build cmake_object_order_depends_target_exersice_2: phony || CMakeFiles/exersice_2.dir
+
+build CMakeFiles/exersice_2.dir/exersice_2.c.o: C_COMPILER__exersice_2_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_2.c || cmake_object_order_depends_target_exersice_2
+  DEP_FILE = CMakeFiles/exersice_2.dir/exersice_2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_2
+
+
+#############################################
+# Link the executable exersice_2
+
+build exersice_2: C_EXECUTABLE_LINKER__exersice_2_Debug CMakeFiles/exersice_2.dir/exersice_2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_2
+  TARGET_PDB = exersice_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_3
+
+
+#############################################
+# Order-only phony target for exersice_3
+
+build cmake_object_order_depends_target_exersice_3: phony || CMakeFiles/exersice_3.dir
+
+build CMakeFiles/exersice_3.dir/exersice_3.c.o: C_COMPILER__exersice_3_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_3.c || cmake_object_order_depends_target_exersice_3
+  DEP_FILE = CMakeFiles/exersice_3.dir/exersice_3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_3
+
+
+#############################################
+# Link the executable exersice_3
+
+build exersice_3: C_EXECUTABLE_LINKER__exersice_3_Debug CMakeFiles/exersice_3.dir/exersice_3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_3
+  TARGET_PDB = exersice_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_4
+
+
+#############################################
+# Order-only phony target for exersice_4
+
+build cmake_object_order_depends_target_exersice_4: phony || CMakeFiles/exersice_4.dir
+
+build CMakeFiles/exersice_4.dir/exersice_4.c.o: C_COMPILER__exersice_4_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_4.c || cmake_object_order_depends_target_exersice_4
+  DEP_FILE = CMakeFiles/exersice_4.dir/exersice_4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_4
+
+
+#############################################
+# Link the executable exersice_4
+
+build exersice_4: C_EXECUTABLE_LINKER__exersice_4_Debug CMakeFiles/exersice_4.dir/exersice_4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_4
+  TARGET_PDB = exersice_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_5
+
+
+#############################################
+# Order-only phony target for exersice_5
+
+build cmake_object_order_depends_target_exersice_5: phony || CMakeFiles/exersice_5.dir
+
+build CMakeFiles/exersice_5.dir/exersice_5.c.o: C_COMPILER__exersice_5_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_5.c || cmake_object_order_depends_target_exersice_5
+  DEP_FILE = CMakeFiles/exersice_5.dir/exersice_5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_5
+
+
+#############################################
+# Link the executable exersice_5
+
+build exersice_5: C_EXECUTABLE_LINKER__exersice_5_Debug CMakeFiles/exersice_5.dir/exersice_5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_5
+  TARGET_PDB = exersice_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exersice_6
+
+
+#############################################
+# Order-only phony target for exersice_6
+
+build cmake_object_order_depends_target_exersice_6: phony || CMakeFiles/exersice_6.dir
+
+build CMakeFiles/exersice_6.dir/exersice_6.c.o: C_COMPILER__exersice_6_Debug /Users/paulcontreras/CLionProjects/untitled/exersice_6.c || cmake_object_order_depends_target_exersice_6
+  DEP_FILE = CMakeFiles/exersice_6.dir/exersice_6.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/exersice_6.dir
+  OBJECT_FILE_DIR = CMakeFiles/exersice_6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exersice_6
+
+
+#############################################
+# Link the executable exersice_6
+
+build exersice_6: C_EXECUTABLE_LINKER__exersice_6_Debug CMakeFiles/exersice_6.dir/exersice_6.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/exersice_6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exersice_6
+  TARGET_PDB = exersice_6.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/CLionProjects/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/CLionProjects/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/paulcontreras/CLionProjects/untitled -B/Users/paulcontreras/CLionProjects/untitled/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/paulcontreras/CLionProjects/untitled/cmake-build-debug
+
+build all: phony exersice_1 exersice_2 exersice_3 exersice_4 exersice_5 exersice_6
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
