@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arrays_en_c",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_en_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_en_c-Debug-1a5f32eaf5318ec92545.json",
+					"name" : "arrays_en_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_en_c2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_en_c2-Debug-361f1786b7f41952b9c3.json",
+					"name" : "arrays_en_c2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_en_c3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_en_c3-Debug-35b66296035a09509bad.json",
+					"name" : "arrays_en_c3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_en_c4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_en_c4-Debug-67568f0c8cfb3fdcbeee.json",
+					"name" : "arrays_en_c4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrays_en_c5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrays_en_c5-Debug-9091c3e90149bee6fafb.json",
+					"name" : "arrays_en_c5",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug",
+		"source" : "/Users/paulcontreras/CLionProjects/arrays-en-c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

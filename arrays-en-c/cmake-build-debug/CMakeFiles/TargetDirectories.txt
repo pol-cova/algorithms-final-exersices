@@ -1,0 +1,7 @@
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/arrays_en_c.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/arrays_en_c2.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/arrays_en_c3.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/arrays_en_c4.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/arrays_en_c5.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/paulcontreras/CLionProjects/arrays-en-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
